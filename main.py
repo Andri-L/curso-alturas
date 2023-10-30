@@ -5,11 +5,15 @@ import dash_bootstrap_components as dbc
 
 import pandas as pd
 from datetime import datetime
+from gdown import download as gdownload
 
 import plotly.graph_objects as go
 
+# Se cargan los datos desde Google Drive
+gdownload("https://docs.google.com/spreadsheets/d/1XCNSqnDDA6wqmid-pcqYHCTVTRi_AsIv/edit?usp=sharing&ouid=102944186622637096957&rtpof=true&sd=true", "BASE DATOS RG ALTURAS.xlsx", quiet=False)
 # Cargar tus datos
 df = pd.read_excel("BASE DATOS RG ALTURAS.xlsx", sheet_name="GENERAL")
+
 
 # Limpieza de datos
 def eliminar_columnas(df):
