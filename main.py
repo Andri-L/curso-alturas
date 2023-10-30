@@ -9,7 +9,7 @@ from datetime import datetime
 import plotly.graph_objects as go
 
 # Cargar tus datos
-df = pd.read_excel("C:/Users/andri/Desktop/PROGRAMACIÓN/PROYECTO/BASE DATOS RG ALTURAS.xlsx", sheet_name="GENERAL")
+df = pd.read_excel("BASE DATOS RG ALTURAS.xlsx", sheet_name="GENERAL")
 
 # Limpieza de datos
 def eliminar_columnas(df):
