@@ -585,11 +585,12 @@ app.layout = dbc.Container([
     dcc.Graph(
         id = 'grafico-edad',
         figure = grafico_edad(df)
-    ),
+    )
+    """
     dcc.Graph(
         id = 'grafico-estado-asistencia',
         figure = grafico_estado_asistencia(df)
-    )
+    )"""
 
 ], fluid=True)
 
