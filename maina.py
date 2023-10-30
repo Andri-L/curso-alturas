@@ -591,6 +591,8 @@ app.layout = dbc.Container([
 
 ], fluid=True)
 
+server = app.server # Esta linea la agrego o no funciona el servidor en render.com
+
 # Correr el servidor del Dashboard
 if __name__=='__main__':
     app.run_server(debug=True, port=8000)
