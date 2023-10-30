@@ -590,8 +590,8 @@ app.layout = dbc.Container([
     dcc.Graph(
         id = 'grafico-estado-asistencia',
         figure = grafico_estado_asistencia(df)
-    )"""
-
+    )
+    """
 ], fluid=True)
 
 server = app.server # Esta linea la agrego o no funciona el servidor en render.com
