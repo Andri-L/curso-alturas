@@ -487,6 +487,7 @@ def grafico_edad(df):
 
     return fig
 
+"""
 # Definir la función para crear el gráfico del estado de la asistencia a los cursos
 def grafico_estado_asistencia(df):
     years_of_interest = [2021, 2022, 2023]
@@ -539,6 +540,7 @@ def grafico_estado_asistencia(df):
     )
     
     return fig
+"""
 
 # Definir el diseño del dashboard
 app.layout = dbc.Container([
