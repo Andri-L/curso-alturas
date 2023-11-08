@@ -5,7 +5,6 @@ import dash_bootstrap_components as dbc
 
 import pandas as pd
 from datetime import datetime
-from gdown import download as gdownload
 
 import plotly.graph_objects as go
 
