@@ -10,7 +10,7 @@ from gdown import download as gdownload
 import plotly.graph_objects as go
 
 # Se cargan los datos desde Google Drive
-link = "https://github.com/Andri-L/curso-alturas/blob/9b4c4c7519b4997b71498f510746b92570fbc8b5/BASE%20DATOS%20RG%20ALTURAS.xlsx"
+link = "https://raw.githubusercontent.com/andri-l/curso-alturas/BASE DATOS RG ALTURAS.xlsx"
 # Cargar tus datos
 df = pd.read_excel(link, sheet_name="GENERAL", engine="openpyxl")
 
