@@ -12,11 +12,6 @@ link = "https://www.dropbox.com/scl/fi/g5ujevwhl71l9to9ufx95/datos.xlsx?rlkey=jx
 # Cargar datos
 df = pd.read_excel(link, sheet_name="Sheet1")
 
-archivo_excel = "C:/Users/juanr/Desktop/datos.xlsx"
-
-# Escribe el dataframe en el archivo Excel
-df.to_excel(archivo_excel)
-
 # ----------------------------------------------------------------------------------------------------------------------------------------
 
 # Crear la aplicación de Dash
